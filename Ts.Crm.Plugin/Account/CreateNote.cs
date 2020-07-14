@@ -8,6 +8,7 @@ using Ts.Crm.Plugin.Base;
 
 //PM command to download SDK
 //Install-Package Microsoft.CrmSdk.CoreAssemblies -Version 9.0.2.5
+//Push Test
 
 namespace Ts.Crm.Plugin
 {
