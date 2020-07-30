@@ -35,14 +35,14 @@ namespace Ts.Crm.Plugin
                         annotation["subject"] = "Previous Address:";
                         annotation["notetext"] = accountPreImage["address1_composite"];
                         annotation["objecttypecode"] = accountPostImage.LogicalName;
-                        crmObj.TracingService.Trace("AccountPlugin: Updating Note.");
+                        crmObj.TracingService.Trace("CreateNotePlugin: Updating Note.");
                         crmObj.OrgService.Create(annotation);
                     }
                 }
             }
             catch (Exception ex)
             {
-                crmObj.TracingService.Trace("AccountPlugin: {0}", ex.ToString());
+                crmObj.TracingService.Trace("CreateNotePlugin: {0}", ex.ToString());
                 throw;
             }
         }

@@ -66,6 +66,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Account\AccountPreUpdate.cs" />
     <Compile Include="Account\CreateNote.cs" />
     <Compile Include="Base\CrmObj.cs" />
     <Compile Include="Base\IPluginBase.cs" />
