@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Xrm.Sdk;
 
+//pull request test
+
 namespace Ts.Crm.Plugin.Base
 {
     public abstract class IPluginBase : IPlugin
